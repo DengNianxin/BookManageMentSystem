@@ -23,6 +23,8 @@ export default {
 
     <el-menu-item index="/">主页</el-menu-item>
 
+    <el-menu-item index="/search">搜索</el-menu-item>
+    
     <el-sub-menu index="">
       <template #title>其他</template>
       <el-menu-item index="/userInfo">个人信息</el-menu-item>

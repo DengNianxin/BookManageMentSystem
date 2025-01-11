@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/book/details/:id',
       name: 'bookDetail',
       component: () => import("../views/BookDetailView.vue")
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import('../views/SearchView.vue')
     }
   ],
 })
